@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{856DE0FB-DCE2-4BE9-A056-494177DD943E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>eais_IV_schermen.My.MyApplication</StartupObject>
+    <RootNamespace>eais_IV_schermen</RootNamespace>
+    <AssemblyName>eais IV schermen</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>eais IV schermen.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>eais IV schermen.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AanspreektitelView.Designer.vb">
+      <DependentUpon>AanspreektitelView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AanspreektitelView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdviseurtoewijzenView.Designer.vb">
+      <DependentUpon>AdviseurtoewijzenView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdviseurtoewijzenView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdviseurView.Designer.vb">
+      <DependentUpon>AdviseurView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdviseurView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BezoektrajectView.Designer.vb">
+      <DependentUpon>BezoektrajectView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BezoektrajectView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EindcontroleView.Designer.vb">
+      <DependentUpon>EindcontroleView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EindcontroleView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EpatypeView.Designer.vb">
+      <DependentUpon>EpatypeView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EpatypeView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EAIS IV Schermen.Designer.vb">
+      <DependentUpon>EAIS IV Schermen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EAIS IV Schermen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EpavestigingView.Designer.vb">
+      <DependentUpon>EpavestigingView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EpavestigingView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KlachtView.Designer.vb">
+      <DependentUpon>KlachtView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KlachtView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KlantView.Designer.vb">
+      <DependentUpon>KlantView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="KlantView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectcodeView.Designer.vb">
+      <DependentUpon>ProjectcodeView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectcodeView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapporttrajectView.Designer.vb">
+      <DependentUpon>RapporttrajectView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RapporttrajectView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TotaaloverzichtView.Designer.vb">
+      <DependentUpon>TotaaloverzichtView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TotaaloverzichtView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VervolgtrajectView.Designer.vb">
+      <DependentUpon>VervolgtrajectView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VervolgtrajectView.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZkaanspreektitelDlg.Designer.vb">
+      <DependentUpon>ZkaanspreektitelDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZkaanspreektitelDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZkadviseurDlg.Designer.vb">
+      <DependentUpon>ZkadviseurDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZkadviseurDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZkepatypeDlg.Designer.vb">
+      <DependentUpon>ZkepatypeDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZkepatypeDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ZkepavestigingDlg.Designer.vb">
+      <DependentUpon>ZkepavestigingDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZkepavestigingDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZkklachtDlg.Designer.vb">
+      <DependentUpon>ZkklachtDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZkklachtDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZkprojectcodeDlg.Designer.vb">
+      <DependentUpon>ZkprojectcodeDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZkprojectcodeDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZkprojectopcodeDlg.Designer.vb">
+      <DependentUpon>ZkprojectopcodeDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZkprojectopcodeDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ZkprojectzonderklachtDlg.Designer.vb">
+      <DependentUpon>ZkprojectzonderklachtDlg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ZkprojectzonderklachtDlg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AanspreektitelView.resx">
+      <DependentUpon>AanspreektitelView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdviseurView.resx">
+      <DependentUpon>AdviseurView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EAIS IV Schermen.resx">
+      <DependentUpon>EAIS IV Schermen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EpatypeView.resx">
+      <DependentUpon>EpatypeView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EpavestigingView.resx">
+      <DependentUpon>EpavestigingView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KlachtView.resx">
+      <DependentUpon>KlachtView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KlantView.resx">
+      <DependentUpon>KlantView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProjectcodeView.resx">
+      <DependentUpon>ProjectcodeView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkaanspreektitelDlg.resx">
+      <DependentUpon>ZkaanspreektitelDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkadviseurDlg.resx">
+      <DependentUpon>ZkadviseurDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkepatypeDlg.resx">
+      <DependentUpon>ZkepatypeDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkepavestigingDlg.resx">
+      <DependentUpon>ZkepavestigingDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkklachtDlg.resx">
+      <DependentUpon>ZkklachtDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkprojectcodeDlg.resx">
+      <DependentUpon>ZkprojectcodeDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkprojectopcodeDlg.resx">
+      <DependentUpon>ZkprojectopcodeDlg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ZkprojectzonderklachtDlg.resx">
+      <DependentUpon>ZkprojectzonderklachtDlg.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
